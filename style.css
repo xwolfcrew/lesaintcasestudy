@@ -533,6 +533,14 @@ nav {
     display: none;
   }
 
+  .primary-lockup h1 {
+    font-size: 3rem;
+  }
+
+  .primary-lockup h2 {
+    font-size: 1rem;
+  }
+
   .nav-left {
     display: none;
   }
@@ -550,21 +558,57 @@ nav {
     height: 40vh;
   }
 
+  .intro-body-wrapper {
+    width: 80%;
+  }
+
+  .intro-body-wrapper h1 {
+    font-size: 2rem;
+  }
+
+  .intro-body-wrapper span {
+    font-size: 0.6rem;
+  }
+
   .intro-body-wrapper p {
-    font-size: clamp(0.5rem, 1vw, 1.2rem);
+    font-size: clamp(0.8rem, 1vw, 1.2rem);
+  }
+
+  .image-slider-wrapper .image-left,
+  .image-slider-wrapper .image-right {
+    aspect-ratio: 3 / 4;
+  }
+
+  .image-slider-wrapper .arrows {
+    padding: 0 1rem;
+    padding: 1rem;
+  }
+
+  .arrow-left,
+  .arrow-right {
+    width: 6px;
+    height: 6px;
   }
 
   .image-slider .sub-text {
-    font-size: clamp(0.5rem, 1vw, 1.2rem);
+    font-size: clamp(0.7rem, 1vw, 1.2rem);
   }
 
   .restaurant-left {
     flex-direction: column;
-    padding: 3rem;
+    padding: 1rem 2rem;
+  }
+
+  .restaurant-left .content-left h1 {
+    font-size: 2rem;
   }
 
   .restaurant-left .content-left p {
-    font-size: clamp(0.5rem, 1vw, 1.2rem);
+    font-size: clamp(0.8rem, 1vw, 1.2rem);
+  }
+
+  .restaurant-left .content-left span {
+    font-size: 0.6rem;
   }
 
   .restaurant-left .content-right {
@@ -578,16 +622,25 @@ nav {
 
   .restaurant-right {
     flex-direction: column;
-    padding: 3rem;
+    padding-top: 1rem;
+  }
+
+  .restaurant-right .content-left h1 {
+    font-size: 2rem;
   }
 
   .restaurant-right .content-left p {
-    font-size: clamp(0.5rem, 1vw, 1.2rem);
+    font-size: clamp(0.8rem, 1vw, 1.2rem);
+  }
+
+  .restaurant-right .content-left span {
+    font-size: 0.6rem;
   }
 
   .restaurant-right .content-right {
     margin-right: 0rem;
   }
+
 
   .restaurant-right .content-right .absolute-image {
     left: 50%;
@@ -598,7 +651,7 @@ nav {
   .restaurant-right .content-right {
     flex: 1;
     position: relative;
-    width: 200px;
+    width: 300px;
     height: auto;
     aspect-ratio: 3 / 4;
   }
@@ -612,8 +665,12 @@ nav {
     justify-content: center;
   }
 
+  .group-offer-container h1 {
+    font-size: 2rem;
+  }
+
   .group-offer-container p {
-    font-size: clamp(0.5rem, 1vw, 1.2rem);
+    font-size: clamp(0.8rem, 1vw, 1.2rem);
   }
 
   .reservations-wrapper {
@@ -622,11 +679,22 @@ nav {
   }
 
   .footer-wrapper {
+    padding-top: 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-bottom: 6rem;
+  }
+
+  .footer-wrapper {
     flex-direction: column;
   }
 
+  .footer-left h1 {
+    font-size: 2rem;
+  }
+
   .footer-left p {
-    font-size: clamp(0.5rem, 1vw, 1.2rem);
+    font-size: clamp(0.8rem, 1vw, 1.2rem);
   }
 
   .footer-right {
